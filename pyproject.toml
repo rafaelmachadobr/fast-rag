@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "fast-rag"
+version = "0.1.0"
+description = ""
+authors = ["Rafael Ferreira Machado <rafaelf.machado2004@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+python-dotenv = "^1.0.1"
+pydantic = "^2.10.6"
+fastapi = "^0.115.8"
+uvicorn = "^0.34.0"
+uuid = "^1.30"
+alembic = "^1.14.1"
+sqlalchemy = "^2.0.38"
+gunicorn = "^23.0.0"
+sentence-transformers = "^3.4.1"
+openai = "^1.64.0"
+pydantic-settings = "^2.8.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
